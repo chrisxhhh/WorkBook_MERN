@@ -1,0 +1,32 @@
+.header-icon {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+.header-icon:hover {
+    color: #1890ff;
+    font-size: 16;
+  }
+  
+.logo {
+    
+    min-height: 32px;
+    margin: 8px auto;
+    /* background: rgba(255, 255, 255, 0.3); */
+    /* font-weight: bold; */
+    /* : auto; */
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: orangered;
+    color: white !important;
+    max-width: max-content !important;
+    max-height: max-content !important;
+    padding: 0.5px 16px;
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
