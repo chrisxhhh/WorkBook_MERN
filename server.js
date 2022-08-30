@@ -32,7 +32,7 @@ app.get("*", function (request, response) {
 //     });
 // }
 
-//app.get("/", (req,res)=> res.send("hello world"));
+app.get("/", (req,res)=> res.send("hello world"));
 
 
 app.listen(port, () => console.log(`Node server started at port ${port}`)); 

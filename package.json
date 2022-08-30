@@ -13,7 +13,7 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "server": "nodemon server.js",
     "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
-    "start":  "\"npm run server\" \"npm run start --prefix client\""
+    "start":  "npm run server && npm run start --prefix client"
 },
   "author": "",
   "license": "ISC",
