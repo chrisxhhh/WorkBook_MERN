@@ -1,5 +1,6 @@
 
 const express = require('express');
+const path = require("path");
 const app = express();
 require('dotenv').config()
 
@@ -18,7 +19,7 @@ app.use('/api/worker', workerRoute);
 
 const port = process.env.PORT || 5000;
 
-const path = require("path");
+
 if (process.env.NODE_ENV ==='production'){
     app.use('/',express.static('client/build'));
     app.get('*', (req,res)=>{
